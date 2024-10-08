@@ -9,6 +9,7 @@ load_dotenv() # Carrega o arquivo .env com a chave da api
 #prompt = f"Escreva um resumo sobre a linguagem de programação {linguagem}"
 
 #RMD-901 
+#RDM-902
 
 # Modelo de Prompt Template
 modelo_do_prompt = PromptTemplate.from_template ("Escreva um resumo sobre a linguagem {lng} e um método para calcular o {clc}")
